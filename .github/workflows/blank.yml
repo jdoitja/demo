@@ -11,11 +11,9 @@ env:
   S3_BUCKET_NAME: mymy
   AWS_REGION: ap-northeast-2
   
-  jobs:
+jobs:
   build:
-    ...
     steps:
-      ...
       - name: Make zip file
         run: zip -r ./$GITHUB_SHA.zip .
         shell: bash
