@@ -39,7 +39,6 @@ public class MemberController {
         return new MemberDTO(member);
     }
 
-
     // DELETE /members/{id}  -> member 단건 삭제
     @ResponseBody
     @DeleteMapping("/members/{id}")
