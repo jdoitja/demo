@@ -47,6 +47,7 @@ public class MemberController {
         return "OK";
     }
 
+
     // GET /search/members?name=---
     @GetMapping("/search/members")
     @ResponseBody
