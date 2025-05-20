@@ -11,7 +11,7 @@ env:
   S3_BUCKET_NAME: mymy
   AWS_REGION: ap-northeast-2
   CODEDEPLOY_NAME: github-actions
-  CODEDEPLOY_GROUP: github-actionsgithub-actions
+  CODEDEPLOY_GROUP: my-webservice
 
 jobs:
   build:
