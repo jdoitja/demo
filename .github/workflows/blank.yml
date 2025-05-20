@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  S3_BUCKET_NAME: S3 버킷 이름
+  S3_BUCKET_NAME: mymy
   AWS_REGION: ap-northeast-2
   
   jobs:
